@@ -260,7 +260,7 @@ console.log('----------------------------------------------');
 
 console.log('[META][INFO] Started Logger v' + VERSION);
 
-bot.login(TOKEN); //log in to discord
+bot.login(process.env.TOKEN); //log in to discord
 
 function formatConsoleMessage(message) {
     return message.cleanContent.replace(new RegExp('\n', 'g'), '\n\t');
