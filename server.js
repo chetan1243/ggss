@@ -11,7 +11,7 @@ const Discord = require('discord.js');
 //constants
 const VERSION = '0.1.1';
 const TOKEN = 'TOKEN GOES HERE';
-const CHANNEL = 'log';
+const CHANNEL = 'logger';
 
 //declarations
 var bot = new Discord.Client();
